@@ -33,17 +33,17 @@ The main business questions this project sought to answer were:
 In order to take a closer look at the data sources, all the necessary libraries were first imported. All the above datasets were then loaded  and analyzed to gain better insight on the data. One of the files was a zipped file which had to be unzipped first in order to access the data within it.
 After loading the datasets, it was easier to find related columns that could be used to connect two or more tables.
 
-The total gross profit by genre was determined using a series of code and the results displayed in a graph as shown below for better visualization:
+We determined the total gross profit by genre using a series of code and the results displayed in a graph as shown below for better visualization:
 
 ![Screenshot 2024-07-28 152833](https://github.com/user-attachments/assets/b860cbb0-3770-4b52-8c2b-81b3ae7e98be)
 
-The most popular movie genre among customers was analyzed by looking at the ratings given for different movies. The best way to obtain this information was merging the movie_basics table with the movie_ratings table. To display the results, this bar graph showing popularity of Genres by Count was plotted. 
+We determined the popularity of movie genres among customers by analyzing the ratings given to various movies. We obtained this information by merging the `movie_basics` table with the `movie_ratings` table. The results are displayed in the bar graph, which shows the popularity of genres by count. 
 
 ![Screenshot 2024-07-28 153633](https://github.com/user-attachments/assets/57d1d0bf-2b0a-4582-822c-44baebbfe380)
 
-From the graph above it was noted that:
-* There is no other genre more popular than drama due to its large following
-* The top 5 genres with a reasonable popularity count are : Drama, Documentary, Comedy, Thriller and horror, while only the first three have a popularity count of over 15k
+From the graph above, we can observe the following:
+* Drama is the most popular genre, boasting a large following.
+* The top five genres in terms of popularity are Drama, Documentary, Comedy, Thriller, and Horror, with only the first three surpassing a popularity count of 15,000.
 
 The most appropriate time to release a movie in order to make the most amount of profit was analyzed by looking at the movie budgets table. A line graph showing the average profits of each month over the years was plotted as shown for better visualization.
 ![Screenshot 2024-07-28 154124](https://github.com/user-attachments/assets/88bb3a3d-d9a3-41ea-a2c0-8f43004e1cbb)
